@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(131, 241, 140);
     font-family: 'Courier New', Courier, monospace;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -18,6 +18,24 @@ header>img {
     max-width: 10%;
     max-height: 10%;
 
+}
+
+.design {
+    align-items: center;
+    max-width: auto;
+    max-height: auto;
+}
+
+.maintenance {
+    align-items: center;
+    max-width: auto;
+    max-height: auto;
+}
+
+.landscaping {
+    align-items: center;
+    max-width: auto;
+    max-height: auto;
 }
 
 footer>div>img {
