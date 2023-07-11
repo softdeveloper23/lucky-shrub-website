@@ -17,30 +17,31 @@ header>img {
     margin-right: auto;
     max-width: 10%;
     max-height: 10%;
+    padding-bottom: 3vh;
 
 }
 
 .design {
-    align-items: center;
-    max-width: auto;
+    justify-content: center;
+    max-width: 100%;
     max-height: auto;
 }
 
 .maintenance {
-    align-items: center;
-    max-width: auto;
+    justify-content: center;
+    max-width: 100%;
     max-height: auto;
 }
 
 .landscaping {
-    align-items: center;
-    max-width: auto;
+    justify-content: center;
+    max-width: 100%;
     max-height: auto;
 }
 
 footer>div>img {
     max-width: 50%;
-    max-height: 15%;
+    max-height: 10%;
 }
 
 nav ul {
@@ -54,10 +55,14 @@ nav li {
 
 section {
     display: flex;
+    align-items: normal;
 }
 
 article {
     flex: 1;
+    margin: 5px;
+    padding: 10px;
+
 }
 
 footer {
