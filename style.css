@@ -7,6 +7,15 @@ body {
     margin-right: 5%;
 }
 
+section .header1 {
+    display: flex;
+}
+
+.mid-col {
+    display: flex;
+    justify-content: space-around;
+}
+
 h1 {
     font-size: 3rem;
 }
@@ -22,57 +31,16 @@ header>img {
 
 }
 
-.mid-col {
-    display: flex;
-    justify-content: space-between;
+img {
     max-width: 100%;
     max-height: auto;
 }
-
-/*.design {
-    justify-content: center;
-    max-width: 100%;
-    max-height: auto;
-}
-
-.maintenance {
-    justify-content: center;
-    max-width: 100%;
-    max-height: auto;
-}
-
-.landscaping {
-    justify-content: center;
-    max-width: 100%;
-    max-height: auto;
-}*/
 
 footer>div>img {
     max-width: 50%;
     max-height: 10%;
     padding-left: 3vh;
     padding-top: 3vh;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-nav li {
-    display: inline-block;
-}
-
-section {
-    display: flex;
-    align-items: normal;
-}
-
-article {
-    /* flex: 1;
-    margin: 5px;
-    padding: 10px; */
-
 }
 
 footer {

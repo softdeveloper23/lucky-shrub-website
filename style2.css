@@ -7,6 +7,15 @@ body {
     margin-right: 5%;
 }
 
+section .header1 {
+    display: flex;
+}
+
+.mid-col {
+    display: flex;
+    justify-content: space-around;
+}
+
 h1 {
     font-size: 3rem;
 }
@@ -20,6 +29,11 @@ header>img {
     padding-top: 3vh;
     padding-bottom: 3vh;
 
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
 }
 
 footer>div>img {
